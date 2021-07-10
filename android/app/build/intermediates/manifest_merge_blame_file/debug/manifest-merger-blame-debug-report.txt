@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.authenticationapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/bop/Documents/AuthenticationApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/bop/Documents/AuthenticationApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+12-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:3:6-73
+12-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:3:23-70
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:4:5-67
+13-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+15-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
+15-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
+16    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+16-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-91
+16-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-88
+17    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+17-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-117
+17-->[:react-native-fingerprint-scanner] /Users/bop/Documents/AuthenticationApp/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-114
+18
+19    <application
+19-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+20        android:name="com.authenticationapp.MainApplication"
+20-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /Users/bop/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:9:7-41
+25        android:label="@string/app_name"
+25-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:8:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:10:7-52
+27        android:theme="@style/AppTheme"
+27-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/bop/Documents/AuthenticationApp/android/app/src/debug/AndroidManifest.xml:8:9-44
+29        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+29-->/Users/bop/Documents/AuthenticationApp/android/app/src/debug/AndroidManifest.xml:11:9-86
+29-->/Users/bop/Documents/AuthenticationApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+30        <activity
+30-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:13:7-23:18
+31            android:name="com.authenticationapp.MainActivity"
+31-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:14:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+32-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:16:9-86
+33            android:label="@string/app_name"
+33-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:15:9-41
+34            android:launchMode="singleTask"
+34-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:17:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:18:9-51
+36            <intent-filter>
+36-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:20:13-65
+37-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:20:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:21:13-73
+39-->/Users/bop/Documents/AuthenticationApp/android/app/src/main/AndroidManifest.xml:21:23-70
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[androidx.biometric:biometric:1.0.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+43            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+43-->[androidx.biometric:biometric:1.0.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:29:13-78
+44            android:exported="true"
+44-->[androidx.biometric:biometric:1.0.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:30:13-36
+45            android:theme="@style/DeviceCredentialHandlerTheme" />
+45-->[androidx.biometric:biometric:1.0.1] /Users/bop/.gradle/caches/transforms-2/files-2.1/1378ed9a82b4ec55cda52ca5dca49579/biometric-1.0.1/AndroidManifest.xml:31:13-64
+46    </application>
+47
+48</manifest>
